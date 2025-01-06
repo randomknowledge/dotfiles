@@ -62,8 +62,8 @@ vim.keymap.set("n", "<M-2>", "<Cmd>BufferLineGoToBuffer 2<CR>", { noremap = true
 vim.keymap.set("n", "<M-3>", "<Cmd>BufferLineGoToBuffer 3<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<M-4>", "<Cmd>BufferLineGoToBuffer 4<CR>", { noremap = true, silent = true })
 
-vim.keymap.set("n", "<M-Left>", "<Cmd>BufferLineCyclePrev<CR>", { silent = true })
-vim.keymap.set("n", "<M-Right>", "<Cmd>BufferLineCycleNext<CR>", { silent = true })
+vim.keymap.set("n", "<M-Left>", "<Cmd>BufferLineCyclePrev<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<M-Right>", "<Cmd>BufferLineCycleNext<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<M-w>", "<Cmd>lua require('bufferline').unpin_and_close()<CR>", { noremap = true, silent = true })
 
 vim.keymap.del("n", "<S-l>")
