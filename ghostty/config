@@ -35,3 +35,6 @@ auto-update = download
 # keybind = ctrl+left=goto_split:left
 # keybind = ctrl+right=goto_split:right
 
+# Disable default keybindings
+keybind = opt+left=unbind
+keybind = opt+right=unbind
