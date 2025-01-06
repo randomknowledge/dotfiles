@@ -1,0 +1,35 @@
+# background = 232327
+background = 232326
+foreground = dcdcdc
+cursor-color = dcdcdc
+background-opacity = 0.95
+background-blur-radius = 20
+# theme = Tomorrow Night
+# theme = JetBrains Darcula
+# theme = tokyonight
+theme = Solarized Dark Higher Contrast
+font-family = JetBrainsMono Nerd Font
+font-size = 18
+shell-integration = zsh
+shell-integration-features = no-cursor
+cursor-style = block
+# window-decoration = false
+quit-after-last-window-closed = true
+macos-non-native-fullscreen = true
+# macos-titlebar-style = tabs
+macos-titlebar-style = transparent
+macos-titlebar-proxy-icon = hidden
+macos-auto-secure-input = true
+macos-secure-input-indication = true
+auto-update = download
+# term = xterm
+
+# split
+# keybind = opt+x>|=new_split:right
+# keybind = opt+x>\=new_split:right
+# keybind = opt+x>-=new_split:down
+# keybind = ctrl+down=goto_split:bottom
+# keybind = ctrl+up=goto_split:top
+# keybind = ctrl+left=goto_split:left
+# keybind = ctrl+right=goto_split:right
+
