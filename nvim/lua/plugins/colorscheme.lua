@@ -1,25 +1,3 @@
--- return {}
--- return {
---   {
---     "rebelot/kanagawa.nvim",
---     lazy = false,
---     priority = 1000,
---     config = function()
---       -- load the colorscheme here
---       vim.cmd([[colorscheme kanagawa-dragon]])
---     end,
---   },
--- }
-
--- return {
---   {
---     "folke/tokyonight.nvim",
---     lazy = false,
---     priority = 1000,
---     opts = { style = "night" },
---   },
--- }
-
 return {
   {
     "navarasu/onedark.nvim",

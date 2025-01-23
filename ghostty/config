@@ -24,7 +24,7 @@ macos-auto-secure-input = true
 macos-secure-input-indication = true
 macos-option-as-alt = true
 auto-update = download
-# term = xterm
+term = xterm-256color
 
 # split
 # keybind = opt+x>|=new_split:right
