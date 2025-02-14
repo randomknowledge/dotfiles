@@ -22,7 +22,7 @@ macos-titlebar-style = transparent
 macos-titlebar-proxy-icon = hidden
 macos-auto-secure-input = true
 macos-secure-input-indication = true
-macos-option-as-alt = true
+macos-option-as-alt = left
 auto-update = download
 term = xterm-256color
 
